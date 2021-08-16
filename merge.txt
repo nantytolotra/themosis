@@ -1,1 +1,1 @@
-ceci un exemple de merge conflit
+totally different content to merge later
