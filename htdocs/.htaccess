@@ -2,11 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /themosis/htdocs/
+RewriteBase /newapp/htdocs/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /themosis/htdocs/index.php [L]
+RewriteRule . /newapp/htdocs/index.php [L]
 </IfModule>
 
 # END WordPress
